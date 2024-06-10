@@ -1,0 +1,13 @@
+// pages/about.js
+import Navbar from '../components/Navbar';
+import styles from '../styles/About.module.css';
+
+const About = () => (
+  <div className={styles.container}>
+    <Navbar />
+    <h1>About Me</h1>
+    {/* About content */}
+  </div>
+);
+
+export default About;
